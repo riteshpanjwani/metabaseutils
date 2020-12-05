@@ -43,4 +43,4 @@ mb_utils.export_question(1, data_format=mu.CSV, visualization_format=mu.JPG)
 
 ```
 
-For license information, see [LICENSE.txt](LICENSE.txt).
+For license information, see [LICENSE.md](LICENSE.md).
