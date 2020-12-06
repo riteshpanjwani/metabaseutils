@@ -4,8 +4,9 @@
 This library can be used to export 'question' and 'dashboard' from [Metabase](https://www.metabase.com) business intelligence tool.
 
 ## Prerequisite
-- Python 3.6+
-- [Chromium Driver appropriate for your OS and brower version](https://chromedriver.chromium.org/downloads)
+- Python >=3.6
+- [Google Chrome](https://www.google.com/intl/en_in/chrome/)
+- [Chromium Driver](https://chromedriver.chromium.org/downloads)
 
 ## Installation
 
@@ -24,8 +25,6 @@ python setup.py install
 ```
 
 ## Usage
-
-This library can be used to export 'question' and 'dashboard' in [Metabase](https://www.metabase.com) business intelligence tool.
 
 Initialize MetabaseUtils object
 
