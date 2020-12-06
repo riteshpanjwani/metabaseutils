@@ -33,12 +33,12 @@ import metabaseutils as mu
 
 
 mb_utils = mu.MetabaseUtils(
-    chrome_driver_path='path\\to\\chromedriver.exe',
+    chrome_driver_path='path/to/chromedriver',
     metabase_host='localhost',
     metabase_port=3000,
     metabase_username='metabase_username',
     metabase_password='metabase_password',
-    output_dir='path\\to\\output\\directory'
+    output_dir='path/to/output/directory'
 )
 
 ```
