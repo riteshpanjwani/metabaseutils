@@ -1,5 +1,5 @@
 # metabaseutils
-[![PyPI](https://img.shields.io/pypi/v/metabaseutils.svg)](https://pypi.python.org/pypi/metabaseutils)
+[![PyPI](https://img.shields.io/pypi/v/metabaseutils.svg)](https://pypi.python.org/pypi/metabaseutils) [![Join the chat at https://gitter.im/metabaseutils/community](https://badges.gitter.im/metabaseutils/community.svg)](https://gitter.im/metabaseutils/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 This library can be used to export 'question' and 'dashboard' from Metabase.
 
