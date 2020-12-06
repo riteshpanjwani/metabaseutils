@@ -1,5 +1,5 @@
 # metabaseutils
-[![PyPI](https://img.shields.io/pypi/v/metabaseutils.svg)](https://pypi.python.org/pypi/metabaseutils) [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/) [![Join the chat at https://gitter.im/metabaseutils/community](https://badges.gitter.im/metabaseutils/community.svg)](https://gitter.im/metabaseutils/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![PyPI](https://img.shields.io/pypi/v/metabaseutils.svg)](https://pypi.python.org/pypi/metabaseutils) [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgreen.svg)](https://creativecommons.org/licenses/by-sa/4.0/) [![Join the chat at https://gitter.im/metabaseutils/community](https://badges.gitter.im/metabaseutils/community.svg)](https://gitter.im/metabaseutils/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 This library can be used to export 'question' and 'dashboard' from Metabase.
 
