@@ -1,7 +1,7 @@
 # metabaseutils
 [![PyPI](https://img.shields.io/pypi/v/metabaseutils.svg)](https://pypi.python.org/pypi/metabaseutils)
 
-This library can be used to export 'question' and 'dashboard' from Metabase.
+This library can be used to export 'question' and 'dashboard' from [Metabase](https://www.metabase.com) business intelligence tool.
 
 ## Prerequisite
 - Python 3.6+
@@ -9,7 +9,7 @@ This library can be used to export 'question' and 'dashboard' from Metabase.
 
 ## Installation
 
-metabaseutils can be installed using pip
+metabaseutils can be installed using pip (TODO)
 
 ```
 pip install metabaseutils
@@ -25,7 +25,9 @@ python setup.py install
 
 ## Usage
 
-This library can be used to export 'question' and 'dashboard' in Metabase business intelligence tool (see https://www.metabase.com). Following is the example to export data/visualization from a question. Function to export dashboard is still under TODO.
+This library can be used to export 'question' and 'dashboard' in [Metabase](https://www.metabase.com) business intelligence tool.
+
+Initialize MetabaseUtils object
 
 ```
 import metabaseutils as mu
@@ -39,8 +41,32 @@ mb_utils = mu.MetabaseUtils(
     metabase_password='metabase_password',
     output_dir='path\\to\\output\\directory'
 )
-mb_utils.export_question(1, data_format=mu.CSV, visualization_format=mu.JPG)
 
 ```
 
+Example to export data/visualization from a question:
+
+```
+question_id=1
+mb_utils.export(question_id, visualization_format=mu.PNG)
+
+```
+
+Example to export data/visualization from a question:
+
+```
+dashboard_id=1
+mb_utils.export(dashboard_id, what=mu.DASHBOARD)
+
+```
+
+## Limitations
+
+TODO
+
+## TODO
+
+TODO
+
+## License
 For license information, see [LICENSE.md](LICENSE.md).

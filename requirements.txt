@@ -1,4 +1,2 @@
 requests
-selenium
 Pillow
-PyPDF2
